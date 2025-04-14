@@ -1,8 +1,23 @@
+node_modules
+
+# Output
+.output
+.vercel
+.netlify
+.wrangler
+/.svelte-kit
+/build
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Env
 .env
-!tests/.env
-!packages/.env
-.pytest_cache/
-__pycache__/
-node_modules/
-*.zip
-olaris-ai
+.env.*
+!.env.example
+!.env.test
+
+# Vite
+vite.config.js.timestamp-*
+vite.config.ts.timestamp-*
