@@ -1,0 +1,8 @@
+.env
+!tests/.env
+!packages/.env
+.pytest_cache/
+__pycache__/
+node_modules/
+*.zip
+olaris-ai
