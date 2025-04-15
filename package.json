@@ -23,5 +23,8 @@
 	"openserverless": {
 		"devel": "npm run dev",
 		"deploy": "npm run build"
+	},
+	"dependencies": {
+		"@sveltejs/adapter-static": "^3.0.8"
 	}
 }
